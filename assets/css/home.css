@@ -1,0 +1,70 @@
+/* css design  */
+/* style for body */
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+/* style for single task div container */
+
+.container {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.form-control {
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  box-shadow: none !important;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.form-control:focus {
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  box-shadow: none !important;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  font-family: sans-serif;
+}
+input[type="text"] {
+  height: 2rem;
+}
+span {
+  font-size: 12px;
+}
+
+button {
+  color: white;
+  background-color: blue;
+}
+
+.date1 {
+  margin-bottom: -3px;
+}
+
+.date2 {
+  margin-top: -3px;
+}
+
+.category {
+  background-color: plum;
+}
+
+.todo_list:nth-of-type(2n + 1) {
+  background-color: aliceblue;
+}
+
+/* .hover:hover {
+  background-color: azure;
+} */
